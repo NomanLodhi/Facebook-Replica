@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Facebook.com</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEU7WZj///9thLQsT5Oyu9E4V5dhea0+XJonTJJwh7ZUbKIvUZTT2OXDydtsg7R9kLuhrMifqscdRo+5wdbs7vT3+PpLZZ9GYZ3g4+zJz9/Z3eiqtM2GlbpccqZsf61Yb6SSn8CNm76DkrjYxQybAAAES0lEQVR4nO3d21riMBSGYWqJBAvapjtAcdD7v8gRZG+zGoKErOX/HczZdPo+0MIkaRgk0hvc+wRu3p8T1pNyyLtyUtmFdd4YnXJPmyavu4WFydRAQiozRYewatN7n9kvlrbVuXCmZbx+u5SenQorYcA1sToRttKAX8T2WFhIugZ3pcVBWJt7n81NMvVemGf3PpmblOV7YSPvKlynmp2wkvkm3b5N18KJvvep3Cg92QpLiXfSdWm5FQ7FCocQcg9C/kHIPx5ClW2yDstQXzgjF6os1dqMluO3VVHktl4HBDFiocq0efoYng8MdjUiDhOr8Is3Ws3rPhpbodLpatbHYixUuikv4PETpoPpZT5mQnU8VC1RmLWXXH8Mhfrdw8dJqD+8gHyEeuUHZCNM3zyBXITq0RfIRugNZCI0E+HC7MUfyEKotOv/I7gKU4/vaqyESl8D5CDMfD/r2QiNw1AFa6FaXgVkINychWjhlW/S+IXfc+2ShVfeSRkI9Vy68NrLMH5hdiUweqHyG35iJLz6RhO98LLP+2oxn541H0U+u+Z+K61fl0brnwvtY58h1a7D3IUhLd1FIXT8sBh7Lb2LQWjcBjCGfmsLoxC6vYSe619jELqNYCw8l4dGIFRuX2l8TzACoeNg98pzHXoMQreHA18YX4cjJ+G7eOGjeOESQksQhghCCOkgDBGE3/2D0BKEIYLwrwifILQUXrh9wudQ6jaK0aTnf/FQVGPe6i0v1uX7P4rcSfhqfSgoz6nXN7hQX7EE0Rr1fUeGMKp36U2E1G4JIoQVNRwuQkgO+IsQzsULyXMXISyoKQ0Rwk/xQnJKQ4SQ3KRMhJCcHZYgpHcpkyCciX8N6S2uJAjpLa4kCHPxwg9ylYYE4Vi8kB6FkyCkdz6WIKR3fBQgJMcwRAh7Fi0KEE7FC3vOXICQHMMQIfykJ6UECHsWLQoQUg/M3EOY5efP9EzdNr768SzQ7pGgnhMPP0P6Y/dD7baSvbH96kbPv4dZ7hBBCCEdhCGCEEI6CEMEIYR0EIYIQgjpIAwRhBDSQRgiCCGkgzBEEEJIB2GIIISQDsIQQQghHYQhghBCOghDBCGEdBCGCEII6SAMEYQQ0kEYIgghpDsXqjvktq/+k8eBO4RqHL6HsZPw5fniI6tO4UPwnl2Flx4YwmBBCKE1CIMFIYTWIAwWhBBagzBYEEJoDcJgQQihNQiDBSGE1iAMFoQQWotG6Dz3dPFxu4SDx3u0mPS3eLj8uIMu4e/PfzqkXfI4bqdQXnshvTk949JyK6R/YIBxm+1E18KK3hWbb6beCpPGczVH5Kkm2QlzesNhrmX5Xkj/WgvbNm/Sb2FSSLybpkVyENI/m8Qz1SbHwkpLIypdnQiTmTCi0rPkVJhUraRrMW2r5Fz4dbsx9C9+sEllpjiwjpc/1nljbDtn80mbJq+TbuEaOSmHvCsn1SnJbQkr5yDk33/MhazV+vSxGQAAAABJRU5ErkJggg==">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Nunito:wght@200&family=Rubik+Marker+Hatch&display=swap" rel="stylesheet">
+    <style>
+       
+        body{
+            background-color:rgb(224, 224, 205) ;
+        }
+        section{
+            width:40%;
+            height:500px;
+            margin-top: 30px;
+            background-color:rgb(224, 224, 205);
+            float:left;
+            margin-left: 200px;
+        }
+        div{
+            width:30%;
+            height:350px;
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            margin-left: 750px;
+            margin-top: 180px;
+            text-align: center;
+            box-shadow: 20px;
+            position:relative;
+            bottom: 550px;
+            
+            
+        }
+        .fb{
+            width:90%;
+            margin-top: 15px;
+            height: 50px;
+            border: 2px solid grey;
+            border-radius: 8px;
+            font-size: larger;
+            color: grey;
+        }
+        #button{
+            width:90%;
+            border-color: rgb(86, 86, 253);
+            border-radius: 8px;
+            background-color:rgb(86, 86, 253) ;
+            height: 50px;
+            font-size: larger;
+            font-weight: bolder;
+            color: white;
+            margin-top: 15px;
+        }
+        hr{
+            width:90%;
+            margin-top: 15px;
+        }
+        #fb1{
+            width:300px;
+            position: relative;
+            bottom: 100px ;
+            left:150px;
+            top:200px;
+            position: relative;
+            bottom:150px;
+
+        }
+        
+        a:link{
+        font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+        }
+    #button2{
+        width: 50%;
+        height:50px;
+        border-color:rgb(73, 138, 73);
+        color:white;
+        font-weight:bolder ;
+        background-color: green;
+        border: none;
+        border-radius: 8px;
+        font-size: large;
+    }
+    #button:hover{
+        cursor: pointer;
+    }
+    #button2:hover{
+        cursor: pointer;  
+    }
+    #par1{
+        margin-left: 780px;
+        margin-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        bottom:550px;
+    }
+    #a2{
+        color:black;
+        font-weight: bolder;
+        font-family: 'Nunito', sans-serif;
+    }
+    img{
+        width:50%;
+    
+        
+    }
+#par2{
+    font-size: xx-large;
+    padding-bottom: 300px;
+    position: relative;
+    left:180px;
+    top:150px;
+
+}
+    </style>
+</head>
+<body>
+    <img id="fb1"src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
+    <p id="par2">Facebook help you connect and share <br>with the people in your life.</p>
+
+
+    <div>
+        <input class="fb" type="email" placeholder="Email address or phone number ">
+        <input class="fb" type="password" placeholder="Password"><br>
+        <button id="button">Log In</button><br><br>
+        <a href="#">Forgotten password?</a>
+        <hr>
+        <button id="button2">Create New Account</button>
+    </div>
+    <p id="par1"><a  id="a2" href="#">Create a Page</a> for a celebrity, brand or business. </p>
+</body>
+</html>
